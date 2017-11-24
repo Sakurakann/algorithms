@@ -6,6 +6,8 @@ package com.sknn.sort;
  */
 public class SortUtil {
 
+  public static final int[] ARR =  new int[] {2, 3, 5, 4, 6, 1};
+
   /**
    * 交换索引位置上的数字.
    * @param arr 数组
@@ -25,8 +27,8 @@ public class SortUtil {
 
   public static void print(int[] arr) {
     for (int i : arr) {
-      System.out.println(i);
+      System.out.print(i + " ");
     }
-
+    System.out.println("\n");
   }
 }

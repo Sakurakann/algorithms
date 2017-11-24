@@ -35,9 +35,9 @@ public class BubbleSort {
   }
 
   public static void main(String[] args) {
-    int[] arr = new int[]{2, 3, 1, 5, 9, 6};
-    new BubbleSort().bubbleSort(arr);
-    SortUtil.print(arr);
+    SortUtil.print(SortUtil.ARR);
+    new BubbleSort().bubbleSort(SortUtil.ARR);
+    SortUtil.print(SortUtil.ARR);
   }
 
 }
